@@ -29,9 +29,9 @@ function pegarDiv(){
 }
 
 function apagar(){
-    var num1 = parseFloat(document.getElementById('num1'))
-    var num2 = parseFloat(document.getElementById('num2'))
-    num1 = ""
-    num2 = ""
-    resultado = ""
+    var num1 = document.getElementById('num1')
+    var num2 = document.getElementById('num2')
+    num1.value = ""
+    num2.value = ""
+    resultado.innerHTML = "0"
 }
