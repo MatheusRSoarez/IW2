@@ -27,3 +27,12 @@ function pegarDiv(){
     var div = num1 / num2 
     resultado.innerHTML = div
 }
+
+function apagar(){
+    var num1 = parseFloat(document.getElementById('num1').value)
+    var num2 = parseFloat(document.getElementById('num2').value)
+
+    num1 = ""
+    num2 = ""
+    resultado.value = ""
+}
