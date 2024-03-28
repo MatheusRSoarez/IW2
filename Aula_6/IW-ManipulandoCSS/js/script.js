@@ -39,6 +39,7 @@ function modoDark() {
     tela.classList.add("dark");
     tela.classList.remove("light");
     tela.classList.remove("amarelo")
+    tela.classList.remove("brasil")
 }
 
 function modoLight() {
